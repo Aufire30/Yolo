@@ -1,0 +1,24 @@
+# Byte-compiled / optimized / DLL files (Python 字节码与缓存)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments (虚拟环境)
+venv/
+env/
+.venv/
+ENV/
+
+# IDE / Editor (编辑器配置文件，如 VS Code, PyCharm 等)
+.vscode/
+.idea/
+
+# Environment variables & secrets (环境变量与密钥文件)
+.env
+.env.local
+*.log
+
+# Distribution / packaging (打包输出文件)
+build/
+dist/
+*.egg-info/
