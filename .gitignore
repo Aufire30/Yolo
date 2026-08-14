@@ -22,3 +22,17 @@ ENV/
 build/
 dist/
 *.egg-info/
+
+# ===== YOLO 训练产物（模型权重、训练日志、结果图）=====
+runs/
+*.pt
+
+# ===== 数据集（太大，不进 GitHub）=====
+datasets/
+
+# ===== 视频抽帧的中间产物 =====
+video_img/
+video_labelimg/
+
+# ===== 测试视频（体积大，不进 GitHub）=====
+*.mp4

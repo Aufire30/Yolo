@@ -1,0 +1,19 @@
+# 1. 显式添加根目录路径
+path: F:/God_road/Yolo/datasets/bvn
+
+# 2. 修改相对路径（去掉原来的 ../）
+train: train/images
+val: valid/images
+test: test/images
+
+# 3. 类别信息（保持原样）
+nc: 1
+names: ['caries']
+
+# 4. Roboflow 额外元信息（保持原样即可，不影响训练）
+roboflow:
+  workspace: dental-caries-detection-using-yolov8
+  project: dentalcariesmixedds-upwuq
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/dental-caries-detection-using-yolov8/dentalcariesmixedds-upwuq/dataset/2
